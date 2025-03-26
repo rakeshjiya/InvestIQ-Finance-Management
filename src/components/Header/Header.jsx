@@ -23,6 +23,9 @@ export default function Header() {
           <Link to="/about" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
             About
           </Link>
+          <Link to="/modules" className="nav-link">
+          Modules
+          </Link>
           <Link to="/learn" className="nav-link">
             Learning
           </Link>
